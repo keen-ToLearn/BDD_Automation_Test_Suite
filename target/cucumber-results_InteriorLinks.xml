@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="125.213">
+    <testcase classname="AP Interior Design Explore Links" name="Explore Modular Kitchen" time="28.806">
+        <system-out><![CDATA[Given user is on interior design page.......................................passed
+When user clicks explore now for modular kitchen............................passed
+Then user sees modular kitchen page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Interior Design Explore Links" name="Explore Bedroom" time="30.57">
+        <system-out><![CDATA[Given user is on interior design page.......................................passed
+When user clicks explore now for bedroom....................................passed
+Then user sees bedroom page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Interior Design Explore Links" name="Explore Living Room" time="26.828">
+        <system-out><![CDATA[Given user is on interior design page.......................................passed
+When user clicks explore now for living room................................passed
+Then user sees living room page.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Interior Design Explore Links" name="Explore Bathroom" time="38.963">
+        <system-out><![CDATA[Given user is on interior design page.......................................passed
+When user clicks explore now for bathroom...................................passed
+Then user sees bathroom page................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

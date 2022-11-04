@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="189.481">
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful" time="29.125">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "Services Designed for your Home Paint Solutions - Asian Paints".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful 2" time="30.281">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "Asian Paints Interior Design - Home Interior Design Beautiful Homes Service by Design Experts".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful 3" time="35.913">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "Safe Home Painting Services, Sanitization & Disinfection - Asian Paints".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful 4" time="35.102">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "San Assure: Sanitization & Disinfection Services by Asian Paints".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful 5" time="27.738">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "Wood Solutions & Service with Full Home Sanitization - Asian Paints".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Home Services Module Drop-down Links" name="Navigations successful 6" time="31.116">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on links in services menu..................................passed
+Then user is redirected to "Waterproofing Solutions & Service for Damp Walls & Patches - Asian Paints".passed
+]]></system-out>
+    </testcase>
+</testsuite>

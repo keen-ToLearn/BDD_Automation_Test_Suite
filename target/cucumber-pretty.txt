@@ -1,0 +1,33 @@
+
+Scenario: Blank Form Submission Unsuccessful [90m# features/FieldValidations.feature:3[0m
+  [32mGiven [0m[32muser is on sanitization service page[0m [90m# stepDefinitions.StepsEnquiryForm.user_is_on_sanitization_service_page()[0m
+  [32mWhen [0m[32muser clicks on enquire[0m                [90m# stepDefinitions.StepsEnquiryForm.user_clicks_on_enquire()[0m
+  [32mThen [0m[32muser enquiry fails[0m                    [90m# stepDefinitions.StepsEnquiryForm.user_enquiry_fails()[0m
+
+Scenario: Invalid Name Input                 [90m# features/FieldValidations.feature:8[0m
+  [32mGiven [0m[32muser is on sanitization service page[0m [90m# stepDefinitions.StepsEnquiryForm.user_is_on_sanitization_service_page()[0m
+  [32mWhen [0m[32muser inputs details with wrong name[0m   [90m# stepDefinitions.StepsEnquiryForm.user_inputs_details_with_wrong_name(io.cucumber.datatable.DataTable)[0m
+    | euwrh@$$%3424 | a@b.org | 7777777777 | 123456 |
+  [32mAnd [0m[32muser clicks on enquire[0m                 [90m# stepDefinitions.StepsEnquiryForm.user_clicks_on_enquire()[0m
+  [32mThen [0m[32muser enquiry fails[0m                    [90m# stepDefinitions.StepsEnquiryForm.user_enquiry_fails()[0m
+
+Scenario: Invalid Email Input                [90m# features/FieldValidations.feature:15[0m
+  [32mGiven [0m[32muser is on sanitization service page[0m [90m# stepDefinitions.StepsEnquiryForm.user_is_on_sanitization_service_page()[0m
+  [32mWhen [0m[32muser inputs details with wrong email[0m  [90m# stepDefinitions.StepsEnquiryForm.user_inputs_details_with_wrong_email(io.cucumber.datatable.DataTable)[0m
+    | qwerty | aassddff | 7777777777 | 123456 |
+  [32mAnd [0m[32muser clicks on enquire[0m                 [90m# stepDefinitions.StepsEnquiryForm.user_clicks_on_enquire()[0m
+  [32mThen [0m[32muser enquiry fails[0m                    [90m# stepDefinitions.StepsEnquiryForm.user_enquiry_fails()[0m
+
+Scenario: Invalid Mobile Input               [90m# features/FieldValidations.feature:22[0m
+  [32mGiven [0m[32muser is on sanitization service page[0m [90m# stepDefinitions.StepsEnquiryForm.user_is_on_sanitization_service_page()[0m
+  [32mWhen [0m[32muser inputs details with wrong mobile[0m [90m# stepDefinitions.StepsEnquiryForm.user_inputs_details_with_wrong_mobile(io.cucumber.datatable.DataTable)[0m
+    | qwerty | a@b.org | 777$%asd | 123456 |
+  [32mAnd [0m[32muser clicks on enquire[0m                 [90m# stepDefinitions.StepsEnquiryForm.user_clicks_on_enquire()[0m
+  [32mThen [0m[32muser enquiry fails[0m                    [90m# stepDefinitions.StepsEnquiryForm.user_enquiry_fails()[0m
+
+Scenario: Invalid Pin Input                  [90m# features/FieldValidations.feature:29[0m
+  [32mGiven [0m[32muser is on sanitization service page[0m [90m# stepDefinitions.StepsEnquiryForm.user_is_on_sanitization_service_page()[0m
+  [32mWhen [0m[32muser inputs details with wrong pin[0m    [90m# stepDefinitions.StepsEnquiryForm.user_inputs_details_with_wrong_pin(io.cucumber.datatable.DataTable)[0m
+    | qwerty | a@b.org | 7777777777 | 22 |
+  [32mAnd [0m[32muser clicks on enquire[0m                 [90m# stepDefinitions.StepsEnquiryForm.user_clicks_on_enquire()[0m
+  [32mThen [0m[32muser enquiry fails[0m                    [90m# stepDefinitions.StepsEnquiryForm.user_enquiry_fails()[0m

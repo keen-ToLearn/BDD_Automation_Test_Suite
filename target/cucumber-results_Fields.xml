@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="208.016">
+    <testcase classname="AP Enquiry Form Field Validations" name="Blank Form Submission Unsuccessful" time="27.694">
+        <system-out><![CDATA[Given user is on sanitization service page..................................passed
+When user clicks on enquire.................................................passed
+Then user enquiry fails.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Enquiry Form Field Validations" name="Invalid Name Input" time="43.996">
+        <system-out><![CDATA[Given user is on sanitization service page..................................passed
+When user inputs details with wrong name....................................passed
+And user clicks on enquire..................................................passed
+Then user enquiry fails.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Enquiry Form Field Validations" name="Invalid Email Input" time="42.959">
+        <system-out><![CDATA[Given user is on sanitization service page..................................passed
+When user inputs details with wrong email...................................passed
+And user clicks on enquire..................................................passed
+Then user enquiry fails.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Enquiry Form Field Validations" name="Invalid Mobile Input" time="50.87">
+        <system-out><![CDATA[Given user is on sanitization service page..................................passed
+When user inputs details with wrong mobile..................................passed
+And user clicks on enquire..................................................passed
+Then user enquiry fails.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="AP Enquiry Form Field Validations" name="Invalid Pin Input" time="42.45">
+        <system-out><![CDATA[Given user is on sanitization service page..................................passed
+When user inputs details with wrong pin.....................................passed
+And user clicks on enquire..................................................passed
+Then user enquiry fails.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
